@@ -1,1 +1,19 @@
 @use "../mixins";
+@use "../variables" as *;
+
+#section_welcome{
+    background-image: url(../../../public/img/Image_Sass_P1/hero-bg.jpg);
+    height: 460px;
+    background-size: cover;
+    background-position: center;
+
+    #bgimg{
+        @include mixins.column-center;
+        height: 100%;
+        // backdrop-filter: brightness(100%);
+
+        .container{
+            
+        }
+    }
+}
