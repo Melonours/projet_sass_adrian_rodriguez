@@ -13,7 +13,12 @@
         // backdrop-filter: brightness(100%);
 
         .container{
-            
+            margin: 5% 0% 0% 22%;
+            // margin-top: 5%;
+            // margin-left: 20%;
+            button{
+                font-size: $fsbtn;
+            }
         }
     }
 }
