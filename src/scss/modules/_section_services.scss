@@ -15,7 +15,6 @@
     }
 
     .card{
-        @include mixins.column-center
+        @include mixins.column-center;
     }
-    
 }

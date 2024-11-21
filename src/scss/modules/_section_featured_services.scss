@@ -10,14 +10,18 @@
         font-size: $fsbadge;
     }
 
-    .card{
-        h6{
-            font-size: $fssmall;
-        }
-        .card-text{
-            font-size: $fsbtn;
-        }
+    .container{
+        width: 60%;
         
+        .card{
+            h6{
+                font-size: $fssmall;
+            }
+            .card-text{
+                font-size: $fsbtn;
+            }
+            
+        }
     }
     
 }
