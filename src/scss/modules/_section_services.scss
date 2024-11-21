@@ -9,4 +9,13 @@
         background-color: $badgebg;
         font-size: $fsbadge;
     }
+
+    .description{
+        font-size: $fssmall;
+    }
+
+    .card{
+        @include mixins.column-center
+    }
+    
 }
