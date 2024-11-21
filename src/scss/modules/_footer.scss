@@ -1,1 +1,11 @@
 @use "../mixins";
+@use "../variables" as *;
+
+footer{
+    @include mixins.row-around;
+    background-color: $footerbg;
+
+    p{
+        font-size: $fsbadge;
+    }
+}

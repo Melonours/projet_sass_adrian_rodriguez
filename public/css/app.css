@@ -24400,6 +24400,7 @@ readers do not read off random characters that represent icons */
   fsbadge: 9px;
   badgebg: #E7F1FD;
   sectionbg: #F5F9FD;
+  footerbg: #F1F6FE;
   border: 0.5px solid #E2EEFD;
 }
 
@@ -24428,6 +24429,7 @@ header .navbar ul li a {
   fsbadge: 9px;
   badgebg: #E7F1FD;
   sectionbg: #F5F9FD;
+  footerbg: #F1F6FE;
   border: 0.5px solid #E2EEFD;
 }
 
@@ -24458,6 +24460,7 @@ header .navbar ul li a {
   fsbadge: 9px;
   badgebg: #E7F1FD;
   sectionbg: #F5F9FD;
+  footerbg: #F1F6FE;
   border: 0.5px solid #E2EEFD;
 }
 
@@ -24487,6 +24490,7 @@ header .navbar ul li a {
   fsbadge: 9px;
   badgebg: #E7F1FD;
   sectionbg: #F5F9FD;
+  footerbg: #F1F6FE;
   border: 0.5px solid #E2EEFD;
 }
 
@@ -24516,6 +24520,7 @@ header .navbar ul li a {
   fsbadge: 9px;
   badgebg: #E7F1FD;
   sectionbg: #F5F9FD;
+  footerbg: #F1F6FE;
   border: 0.5px solid #E2EEFD;
 }
 
@@ -24561,6 +24566,7 @@ header .navbar ul li a {
   fsbadge: 9px;
   badgebg: #E7F1FD;
   sectionbg: #F5F9FD;
+  footerbg: #F1F6FE;
   border: 0.5px solid #E2EEFD;
 }
 
@@ -24594,6 +24600,7 @@ header .navbar ul li a {
   fsbadge: 9px;
   badgebg: #E7F1FD;
   sectionbg: #F5F9FD;
+  footerbg: #F1F6FE;
   border: 0.5px solid #E2EEFD;
 }
 
@@ -24609,6 +24616,26 @@ header .navbar ul li a {
 }
 #contact .description {
   font-size: 12px;
+}
+
+:export {
+  fssmall: 12px;
+  fsbtn: 10px;
+  fsbadge: 9px;
+  badgebg: #E7F1FD;
+  sectionbg: #F5F9FD;
+  footerbg: #F1F6FE;
+  border: 0.5px solid #E2EEFD;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #F1F6FE;
+}
+footer p {
+  font-size: 9px;
 }
 
 * {

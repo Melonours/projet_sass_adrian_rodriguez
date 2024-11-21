@@ -2,7 +2,8 @@ $fssmall: 12px;
 $fsbtn: 10px;
 $fsbadge: 9px;
 $badgebg: #E7F1FD;
-$sectionbg : #F5F9FD;
+$sectionbg: #F5F9FD;
+$footerbg: #F1F6FE;
 $border: 0.5px solid #E2EEFD;
 
 
@@ -12,5 +13,6 @@ $border: 0.5px solid #E2EEFD;
     fsbadge:$fsbadge;
     badgebg: $badgebg;
     sectionbg: $sectionbg;
+    footerbg: $footerbg;
     border: $border;
 }
