@@ -1,7 +1,11 @@
 $fssmall: 12px;
 $fsbtn: 10px;
+$fsbadge: 9px;
+$badgebg: #E7F1FD;
 
 :export{
     fssmall: $fssmall;
     fsbtn: $fsbtn;
+    fsbadge:$fsbadge;
+    badgebg: $badgebg;
 }

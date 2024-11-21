@@ -10,7 +10,7 @@
     #bgimg{
         @include mixins.column-center;
         height: 100%;
-        // backdrop-filter: brightness(100%);
+        // backdrop-filter: brightness(100%); // TODO Régler le filter
 
         .container{
             margin: 5% 0% 0% 22%;

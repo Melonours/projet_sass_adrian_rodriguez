@@ -1,1 +1,23 @@
 @use "../mixins";
+@use "../variables" as *;
+
+
+#featured{
+    @include mixins.column-center;
+
+    .badge{
+        background-color: $badgebg;
+        font-size: $fsbadge;
+    }
+
+    .card{
+        h6{
+            font-size: $fssmall;
+        }
+        .card-text{
+            font-size: $fsbtn;
+        }
+        
+    }
+    
+}

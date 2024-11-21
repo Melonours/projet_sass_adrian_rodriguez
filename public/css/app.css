@@ -11968,6 +11968,8 @@ textarea.form-control-lg {
 :export {
   fssmall: 12px;
   fsbtn: 10px;
+  fsbadge: 9px;
+  badgebg: #E7F1FD;
 }
 
 header .navbar {
@@ -11992,6 +11994,8 @@ header .navbar ul li a {
 :export {
   fssmall: 12px;
   fsbtn: 10px;
+  fsbadge: 9px;
+  badgebg: #E7F1FD;
 }
 
 #section_welcome {
@@ -12012,6 +12016,84 @@ header .navbar ul li a {
 }
 #section_welcome #bgimg .container button {
   font-size: 10px;
+}
+
+:export {
+  fssmall: 12px;
+  fsbtn: 10px;
+  fsbadge: 9px;
+  badgebg: #E7F1FD;
+}
+
+#featured {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#featured .badge {
+  background-color: #E7F1FD;
+  font-size: 9px;
+}
+#featured .card h6, #featured .card .h6 {
+  font-size: 12px;
+}
+#featured .card .card-text {
+  font-size: 10px;
+}
+
+:export {
+  fssmall: 12px;
+  fsbtn: 10px;
+  fsbadge: 9px;
+  badgebg: #E7F1FD;
+}
+
+#services {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#services .badge {
+  background-color: #E7F1FD;
+  font-size: 9px;
+}
+
+:export {
+  fssmall: 12px;
+  fsbtn: 10px;
+  fsbadge: 9px;
+  badgebg: #E7F1FD;
+}
+
+#team {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#team .badge {
+  background-color: #E7F1FD;
+  font-size: 9px;
+}
+
+:export {
+  fssmall: 12px;
+  fsbtn: 10px;
+  fsbadge: 9px;
+  badgebg: #E7F1FD;
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#contact .badge {
+  background-color: #E7F1FD;
+  font-size: 9px;
 }
 
 * {
