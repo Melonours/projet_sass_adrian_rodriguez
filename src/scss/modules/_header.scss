@@ -3,10 +3,10 @@
 
 header{
     .navbar{
-        @include mixins.row-around;
+        @include mixins.row-evenly;
         
         ul{
-            @include mixins.row-center;
+            @include mixins.row-around;
             width: 25%;
             li{
                 list-style: none;

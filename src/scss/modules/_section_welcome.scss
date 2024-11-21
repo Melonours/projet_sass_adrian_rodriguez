@@ -5,7 +5,7 @@
     background-image: url(../../../public/img/Image_Sass_P1/hero-bg.jpg);
     height: 460px;
     background-size: cover;
-    background-position: center;
+    background-position: 10%;
 
     #bgimg{
         @include mixins.column-center;
@@ -13,7 +13,8 @@
         // backdrop-filter: brightness(100%); // TODO Régler le filter
 
         .container{
-            margin: 5% 0% 0% 22%;
+            margin: 5% 0% 0% 77px;
+            padding-left: 9%;
             // margin-top: 5%;
             // margin-left: 20%;
             button{

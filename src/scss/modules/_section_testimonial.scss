@@ -1,1 +1,21 @@
 @use "../mixins";
+@use "../variables" as *;
+
+.carousel-inner{
+    height: 350px;
+
+    .carousel-item{
+        background-image: url(../../../public/img/Image_Sass_P1/testi.jpg);
+        background-size: contain;
+        background-repeat:inherit;
+
+        .bdfilter{
+            @include mixins.column-center;
+            backdrop-filter: brightness(30%);
+
+            span{
+                font-size: $fssmall;
+            }
+        }
+    }
+}
