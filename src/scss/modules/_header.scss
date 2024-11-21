@@ -1,1 +1,22 @@
 @use "../mixins";
+@use "../variables" as *;
+
+header{
+    .navbar{
+        @include mixins.row-around;
+        
+        ul{
+            @include mixins.row-center;
+            width: 25%;
+            li{
+                list-style: none;
+    
+                a{
+                    text-decoration: none;
+                    font-size: $fssmall;
+                }
+            }
+        }
+    }
+
+}
