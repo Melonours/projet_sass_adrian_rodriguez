@@ -1,1 +1,12 @@
 @use "../mixins";
+@use "../variables" as *;
+
+
+#team{
+    @include mixins.column-center;
+
+    .badge{
+        background-color: $badgebg;
+        font-size: $fsbadge;
+    }
+}

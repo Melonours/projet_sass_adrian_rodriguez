@@ -1,1 +1,35 @@
 @use "../mixins";
+@use "../variables" as *;
+
+
+#services{
+    @include mixins.column-center;
+
+    .badge{
+        background-color: $badgebg;
+        font-size: $fsbadge;
+    }
+
+    .description{
+        font-size: $fssmall;
+    }
+
+    .col{
+        border: $border;
+        .card{
+            @include mixins.column-center;
+
+            .i_container{
+                @include mixins.column-center;
+                width: 40px;
+                height: 40px;
+                background-color: $badgebg;
+                border: $border;
+            }
+
+            .card-text{
+                font-size: $fsbadge;
+            }
+        }
+    }
+}
