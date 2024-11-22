@@ -4,7 +4,7 @@
 
 #services{
     @include mixins.column-center;
-
+    
     .badge{
         background-color: $badgebg;
         font-size: $fsbadge;
@@ -16,9 +16,19 @@
 
     .container{
         width: 70%;
+
+        .row{
+            @media (max-width:526px) {
+                width: 100%;
+                @include mixins.column-center;
+            }
+        }
+
         .col{
+            
             border: $border;
             .card{
+                
                 @include mixins.column-center;
     
                 .i_container{

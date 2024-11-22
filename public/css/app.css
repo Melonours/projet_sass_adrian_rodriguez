@@ -24376,6 +24376,20 @@ header .navbar ul li a {
 #featured .container {
   width: 60%;
 }
+@media (max-width: 526px) {
+  #featured .container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 526px) {
+  #featured .container .card {
+    margin-top: 10px;
+  }
+}
 #featured .container .card h6, #featured .container .card .h6 {
   font-size: 12px;
 }
@@ -24440,6 +24454,15 @@ header .navbar ul li a {
 #services .container {
   width: 70%;
 }
+@media (max-width: 526px) {
+  #services .container .row {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
 #services .container .col {
   border: 0.5px solid #E2EEFD;
 }
@@ -24490,6 +24513,20 @@ header .navbar ul li a {
 }
 #team .container {
   width: 60%;
+}
+@media (max-width: 526px) {
+  #team .container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 526px) {
+  #team .container .col .card {
+    margin-top: 10px;
+  }
 }
 #team .container .col .card h6, #team .container .col .card .h6 {
   font-size: 12px;
