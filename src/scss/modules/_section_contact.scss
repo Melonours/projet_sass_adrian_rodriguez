@@ -15,7 +15,24 @@
 
     .container{
         width: 60%;
+        @media (max-width:526px) {
+            width: 100%;
+            @include mixins.column-center;
+        }
 
+        #contact_us{
+            @media (max-width:526px) {
+                margin-top: 20px;
+                width: 100%;
+                @include mixins.row-center;
+            }
+
+            @media (min-width:526px) and (max-width:768px) {
+                margin-top: 20px;
+                width: 100%;
+                @include mixins.row-center;
+            }
+        }
         .border_icons{
             @include mixins.column-center;
             width: 30px;
