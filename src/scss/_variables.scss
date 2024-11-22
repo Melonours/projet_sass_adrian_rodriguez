@@ -5,6 +5,7 @@ $badgebg: #E7F1FD;
 $sectionbg: #F5F9FD;
 $footerbg: #F1F6FE;
 $border: 0.5px solid #E2EEFD;
+$borderdotted: 1.5px dotted #B0D0FA;
 
 
 :export{
@@ -15,4 +16,5 @@ $border: 0.5px solid #E2EEFD;
     sectionbg: $sectionbg;
     footerbg: $footerbg;
     border: $border;
+    borderdotted: $borderdotted;
 }

@@ -328,15 +328,57 @@
             <p class="description text-center">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique inventore optio quas? <br>Beatae sapiente incidunt dolorem repellendus magni.
             </p>
-            <div class="container">
-                <div>
-                    <div>adresse</div>
-                    <div>plan</div>
+            <!-- Address card -->
+            <div class="container row gap-1">
+                <div class="container col">
+                    <div class="card text-center border-0 shadow-sm pt-2">
+                        <div class="border_icons align-self-center">
+                            <i class="fa-solid fa-location-dot text-primary"></i>
+                        </div>
+                        <div class="card-body pt-2">
+                          <h6 class="card-title text-capitalize text-muted fw-bold">our address</h6>
+                          <p class="card-text text-secondary">Place de la minoterie 10, 1080 <span class="text-capitalize">molenbeek-saint-jean</span></p>
+                        </div>
+                      </div>
+                      <!-- Map card -->
+                    <div class="card border-0 shadow-sm mt-4"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5437.479084679682!2d4.336496655284512!3d50.85547018531026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c38e84af80dd%3A0xe85cd9cd0218a4aa!2sPl.%20de%20la%20Minoterie%2010%2C%201080%20Molenbeek-Saint-Jean!5e1!3m2!1sfr!2sbe!4v1732268407461!5m2!1sfr!2sbe" width="auto" height="300px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
                 </div>
-                <div>
-                    <div>email</div>
-                    <div>call</div>
-                    <div>form</div>
+                <div class="container col">
+                    <div class="container row w-auto gap-3">
+                        <div class="card col w-auto text-center border-0 shadow-sm pt-2">
+                            <div class="border_icons align-self-center">
+                                <i class="fa-regular fa-envelope text-primary"></i>
+                            </div>
+                            <div class="card-body pt-2">
+                              <h6 class="card-title text-capitalize text-muted fw-bold">email us</h6>
+                              <p class="card-text text-secondary">info@molengeek.com</p>
+                            </div>
+                        </div>
+                        <div class="card col w-auto text-center border-0 shadow-sm pt-2">
+                            <div class="border_icons align-self-center">
+                                <i class="fa-solid fa-phone-volume text-primary"></i>
+                            </div>
+                            <div class="card-body pt-2">
+                              <h6 class="card-title text-capitalize text-muted fw-bold">call us</h6>
+                              <p class="card-text text-secondary">+1 5589 55488 55</p>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="container w-auto mt-4 shadow-sm p-3">
+                        <div class="container row gap-1 w-100">
+                            <input type="text" class="form-control col" placeholder="Your Name">
+                            <input type="email" class="form-control col" placeholder="Your Email">
+                        </div>
+                        <div class="container row w-100 mt-2">
+                            <input type="text" class="form-control col" placeholder="Subject">
+                        </div>
+                        <div class="container row w-100 mt-2">
+                            <textarea class="form-control" rows="3" placeholder="Message"></textarea>
+                        </div>
+                        <div class="mt-2">
+                            <button type="submit" class="btn btn-primary text-capitalize px-3 rounded-1">Send message</button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </section>
@@ -344,7 +386,7 @@
     </main>
     <!-- Fin contenu main -->
     <!-- Début footer-->
-    <footer class="container-fluid py-3">
+    <footer class="container-fluid py-3 mt-5">
        <p class="text-muted text-capitalize mb-1">© Copyright <span class="fw-bold">MolenGeek</span>, all rights reserved</p>
        <p class="text-muted mb-1">Designed by <span class="text-primary">MolenGeek</span></p>
     </footer>

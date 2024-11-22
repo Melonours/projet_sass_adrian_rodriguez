@@ -24402,6 +24402,7 @@ readers do not read off random characters that represent icons */
   sectionbg: #F5F9FD;
   footerbg: #F1F6FE;
   border: 0.5px solid #E2EEFD;
+  borderdotted: 1.5px dotted #B0D0FA;
 }
 
 header .navbar {
@@ -24430,6 +24431,7 @@ header .navbar ul li a {
   sectionbg: #F5F9FD;
   footerbg: #F1F6FE;
   border: 0.5px solid #E2EEFD;
+  borderdotted: 1.5px dotted #B0D0FA;
 }
 
 #section_welcome {
@@ -24461,6 +24463,7 @@ header .navbar ul li a {
   sectionbg: #F5F9FD;
   footerbg: #F1F6FE;
   border: 0.5px solid #E2EEFD;
+  borderdotted: 1.5px dotted #B0D0FA;
 }
 
 #featured {
@@ -24491,6 +24494,7 @@ header .navbar ul li a {
   sectionbg: #F5F9FD;
   footerbg: #F1F6FE;
   border: 0.5px solid #E2EEFD;
+  borderdotted: 1.5px dotted #B0D0FA;
 }
 
 .carousel-inner {
@@ -24521,6 +24525,7 @@ header .navbar ul li a {
   sectionbg: #F5F9FD;
   footerbg: #F1F6FE;
   border: 0.5px solid #E2EEFD;
+  borderdotted: 1.5px dotted #B0D0FA;
 }
 
 #services {
@@ -24570,6 +24575,7 @@ header .navbar ul li a {
   sectionbg: #F5F9FD;
   footerbg: #F1F6FE;
   border: 0.5px solid #E2EEFD;
+  borderdotted: 1.5px dotted #B0D0FA;
 }
 
 #team {
@@ -24604,6 +24610,7 @@ header .navbar ul li a {
   sectionbg: #F5F9FD;
   footerbg: #F1F6FE;
   border: 0.5px solid #E2EEFD;
+  borderdotted: 1.5px dotted #B0D0FA;
 }
 
 #contact {
@@ -24619,6 +24626,49 @@ header .navbar ul li a {
 #contact .description {
   font-size: 12px;
 }
+#contact .container {
+  width: 60%;
+}
+#contact .container .border_icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border: 1.5px dotted #B0D0FA;
+  border-radius: 50%;
+}
+#contact .container .card-title {
+  font-size: 12px;
+}
+#contact .container .card-text {
+  font-size: 9px;
+}
+#contact form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#contact form .form-control {
+  border-radius: 0%;
+}
+#contact form input::-moz-placeholder {
+  font-size: 9px;
+}
+#contact form input::placeholder {
+  font-size: 9px;
+}
+#contact form textarea::-moz-placeholder {
+  font-size: 9px;
+}
+#contact form textarea::placeholder {
+  font-size: 9px;
+}
+#contact form button {
+  font-size: 10px;
+}
 
 :export {
   fssmall: 12px;
@@ -24628,6 +24678,7 @@ header .navbar ul li a {
   sectionbg: #F5F9FD;
   footerbg: #F1F6FE;
   border: 0.5px solid #E2EEFD;
+  borderdotted: 1.5px dotted #B0D0FA;
 }
 
 footer {

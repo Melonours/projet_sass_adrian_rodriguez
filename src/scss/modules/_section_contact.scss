@@ -4,7 +4,6 @@
 
 #contact{
     @include mixins.column-center;
-
     .badge{
         background-color: $badgebg;
         font-size: $fsbadge;
@@ -12,5 +11,45 @@
 
     .description{
         font-size: $fssmall;
+    }
+
+    .container{
+        width: 60%;
+
+        .border_icons{
+            @include mixins.column-center;
+            width: 30px;
+            height: 30px;
+            border: $borderdotted;
+            border-radius: 50%;
+        }
+
+        .card-title{
+            font-size: $fssmall;
+        }
+
+        .card-text{
+            font-size: $fsbadge;
+        }
+    }
+
+    form{
+        @include mixins.column-center;
+
+        .form-control{
+            border-radius: 0%;
+        }
+
+        input::placeholder{
+            font-size: $fsbadge;
+        }
+
+        textarea::placeholder{
+            font-size: $fsbadge;
+        }
+
+        button{
+            font-size: $fsbtn;
+        }
     }
 }
