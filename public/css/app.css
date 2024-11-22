@@ -24435,7 +24435,7 @@ header .navbar ul li a {
 }
 
 #section_welcome {
-  background-image: url(../../../public/img/Image_Sass_P1/hero-bg.jpg);
+  background-image: url(../../../public/img/Image_Sass_P1/hero-bg-filter.jpg);
   height: 460px;
   background-size: cover;
   background-position: 10%;
@@ -24445,7 +24445,6 @@ header .navbar ul li a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100%;
 }
 #section_welcome #bgimg .container {
   margin: 5% 0% 0% 77px;

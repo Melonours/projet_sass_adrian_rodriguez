@@ -2,15 +2,15 @@
 @use "../variables" as *;
 
 #section_welcome{
-    background-image: url(../../../public/img/Image_Sass_P1/hero-bg.jpg);
+    background-image: url(../../../public/img/Image_Sass_P1/hero-bg-filter.jpg);
     height: 460px;
     background-size: cover;
     background-position: 10%;
 
     #bgimg{
         @include mixins.column-center;
-        height: 100%;
-        // backdrop-filter: brightness(100%); // TODO Régler le filter
+        // Ne veut pas s'appliquer
+        // backdrop-filter: opacity(50%);
 
         .container{
             margin: 5% 0% 0% 77px;
