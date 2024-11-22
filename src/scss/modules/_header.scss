@@ -3,6 +3,10 @@
 
 header{
     .navbar{
+        @media (min-width:526px) and (max-width:768px) {
+            padding: 2%;
+            margin: 0;
+        }
 
         @include mixins.row-evenly;
         

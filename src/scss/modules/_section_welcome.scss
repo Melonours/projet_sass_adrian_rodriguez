@@ -13,20 +13,23 @@
         // backdrop-filter: opacity(50%);
 
         .container{
-            @media (max-width: 426px) {
+            @media (max-width: 526px) {
                 padding: 5%;
                 margin: 0;
             }
 
-            margin: 5% 0% 0% 77px;
+            @media (min-width:526px) and (max-width:768px) {
+                padding: 5%;
+                margin: 0;
+            }
+            margin: 5% 0% 0% 60px;
             padding-left: 9%;
+            padding-top: 9.5%;
             // margin-top: 5%;
             // margin-left: 20%;
             button{
                 font-size: $fsbtn;
             }
-
-            
         }
     }
 }
