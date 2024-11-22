@@ -14,21 +14,24 @@
         font-size: $fssmall;
     }
 
-    .col{
-        border: $border;
-        .card{
-            @include mixins.column-center;
-
-            .i_container{
+    .container{
+        width: 70%;
+        .col{
+            border: $border;
+            .card{
                 @include mixins.column-center;
-                width: 40px;
-                height: 40px;
-                background-color: $badgebg;
-                border: $border;
-            }
-
-            .card-text{
-                font-size: $fsbadge;
+    
+                .i_container{
+                    @include mixins.column-center;
+                    width: 40px;
+                    height: 40px;
+                    background-color: $badgebg;
+                    border: $border;
+                }
+    
+                .card-text{
+                    font-size: $fsbadge;
+                }
             }
         }
     }
