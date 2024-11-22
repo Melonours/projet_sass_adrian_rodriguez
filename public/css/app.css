@@ -24450,6 +24450,12 @@ header .navbar ul li a {
   margin: 5% 0% 0% 77px;
   padding-left: 9%;
 }
+@media (max-width: 426px) {
+  #section_welcome #bgimg .container {
+    padding: 5%;
+    margin: 0;
+  }
+}
 #section_welcome #bgimg .container button {
   font-size: 10px;
 }

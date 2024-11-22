@@ -3,6 +3,7 @@
 
 header{
     .navbar{
+
         @include mixins.row-evenly;
         
         ul{
