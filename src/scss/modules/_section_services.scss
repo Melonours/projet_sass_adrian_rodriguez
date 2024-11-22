@@ -18,9 +18,12 @@
         width: 70%;
 
         .row{
+            @include mixins.row-center;
+
             @media (max-width:526px) {
                 width: 100%;
-                @include mixins.column-center;
+                // @include mixins.column-center;
+                // justify-content: space-around;
             }
         }
 
@@ -32,10 +35,12 @@
         // }
 
         .col{
-            
+
+
+
             border: $border;
             .card{
-                
+
                 @include mixins.column-center;
     
                 .i_container{
