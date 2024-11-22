@@ -4,9 +4,393 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projet Sass</title>
+    <link rel="stylesheet" href="./public/css/app.css">
 </head>
 <body>
-    
+    <!-- Début header -->
+    <header class="container-fluid px-0">
+        <nav class="navbar px-5">
+            <!-- Titre page  -->
+            <p class="fs-4 fw-bold my-2">
+                MolenGeek<span class="text-primary">.</span>
+            </p>
+            <ul class="p-0 my-2">
+                <li class="nav-item mx-2">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item mx-2">
+                    <a class="nav-link" href="#featured">Featured</a>
+                </li>
+                <li class="nav-item mx-2">
+                    <a class="nav-link" href="#testimonial">Testimonials</a>
+                </li>
+                <li class="nav-item mx-2">
+                    <a class="nav-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item mx-2">
+                    <a class="nav-link" href="#team">Team</a>
+                </li>
+                <li class="nav-item mx-2">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Fin header -->
+    <!-- Début contenu main -->
+    <main>
+        <!-- Début section welcome -->
+        <section class="container-fluid px-0" id="section_welcome">
+            <div class="container-fluid px-0" id="bgimg">
+                <div class="container">
+                    <h1 class="fw-bold m-0">Welcome to <span class="text-primary">MolenGeek</span></h1>
+                    <p class="mb-4 text-muted">Mon projet du vendredi</p>
+                    <button class="btn btn-primary text-uppercase fw-bold px-3 rounded-1">get started</button>
+                </div>
+            </div>
+        </section>
+        <!-- Fin section welcome  -->
+        <!-- Début section featured services -->
+        <section class="container-fluid mt-5" id="featured">
+            <!-- Badge -->
+            <div class="badge rounded-pill text-primary text-uppercase p-2 px-3">featured services </div>
+            <p class="fw-bold fs-4">Read <span class="text-primary text-capitalize">featured services</span></p>
+            <!-- Card container  -->
+            <div class="container row">
+                <!-- Card -->
+                <div class="card col mx-2 border-0 py-4 shadow-sm h-75">
+                    <div class="container justify-content-end m-0">
+                        <i class="fa-brands fa-dribbble fa-xl text-primary"></i>
+                    </div>
+                    <div class="card-body pt-3 pb-0">
+                        <h6 class="fw-bold">Lorem, ipsum.</h6>
+                        <p class="card-text text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, voluptatibus!</p>
+                    </div>
+                </div>
+                <!-- Fin card -->
+                <!-- Card -->
+                <div class="card col mx-2 border-0 py-4 shadow-sm h-75">
+                    <div class="container justify-content-end m-0">
+                        <i class="fa-regular fa-file-lines fa-xl text-primary"></i>
+                    </div>
+                    <div class="card-body pt-3 pb-0">
+                        <h6 class="fw-bold">Lorem, ipsum dolor.</h6>
+                        <p class="card-text text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, voluptatibus!</p>
+                    </div>
+                </div>
+                <!-- Fin card -->
+                <!-- Card -->
+                <div class="card col mx-2 border-0 py-4 shadow-sm h-75">
+                    <div class="container justify-content-end m-0">
+                        <i class="fa-solid fa-gauge-simple-high fa-xl text-primary"></i>
+                    </div>
+                    <div class="card-body pt-3 pb-0">
+                        <h6 class="fw-bold">Lorem, ipsum.</h6>
+                        <p class="card-text text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, voluptatibus!</p>
+                    </div>
+                </div>
+                <!-- Fin card -->
+                <!-- Card -->
+                <div class="card col mx-2 border-0 py-4 shadow-sm h-75">
+                    <div class="container justify-content-end m-0">
+                        <i class="fa-solid fa-earth-americas fa-xl text-primary"></i>
+                    </div>
+                    <div class="card-body pt-3 pb-0">
+                        <h6 class="fw-bold">Lorem, ipsum.</h6>
+                        <p class="card-text text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, voluptatibus!</p>
+                    </div>
+                </div>
+                <!-- Fin card -->
+            </div>
+            <!-- Fin card container -->
+        </section>
+        <!-- Fin section featured services  -->
+        <!-- Début section testimonial -->
+        <section class="container-fluid p-0 mt-5" id="testimonial">
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active h-100">
+                        <!-- Div appliquant le filtre -->
+                        <div class="bdfilter h-100 text-center">
+                            <p class="fs-4 text-primary text-capitalize">testimonial</p>
+                            <span class="d-block w-75 text-white">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam, perferendis earum facilis accusamus pariatur atque assumenda eius odit officia voluptatem!
+                            </span>
+                        </div>
+                    </div>
+                    <div class="carousel-item h-100 text-center">
+                        <!-- Div appliquant le filtre -->
+                        <div class="bdfilter h-100">
+                            <p class="fs-4 text-primary text-capitalize">testimonial 2</p>
+                            <span class="d-block w-75 text-white">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex optio quasi aut excepturi odit distinctio corrupti eveniet modi totam nulla numquam sint ratione, id illo minima at. Voluptas, beatae nulla.
+                                Nulla obcaecati dignissimos, nobis quidem voluptatibus labore est enim nostrum eius tenetur amet laborum, velit unde magnam impedit esse beatae distinctio atque eum exercitationem? Eaque laborum atque culpa eos dolores!
+                            </span>
+                        </div>
+                    </div>
+                    <div class="carousel-item h-100">
+                        <!-- Div appliquant le filtre -->
+                        <div class="bdfilter h-100 text-center">
+                            <p class="fs-4 text-primary text-capitalize">testimonial 3</p>
+                            <span class="d-block w-75 text-white">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt similique in, magnam totam nam laudantium, blanditiis illo explicabo eius adipisci sint reprehenderit. Perspiciatis asperiores laborum commodi maxime magni provident nam!
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <!-- TODO Custom carousel buttons -->
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+                </div>
+        </section>
+        <!-- Fin section testimonial  -->
+        <!-- Début section services -->
+        <section class="container-fluid mt-5" id="services">
+            <div class="badge rounded-pill text-primary text-uppercase p-2 px-3">services</div>
+            <p class="fw-bold fs-4">
+                Check our <span class="text-primary text-capitalize">services</span>
+            </p>
+            <p class="description text-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique inventore optio quas? <br>Beatae sapiente incidunt dolorem repellendus magni.
+            </p>
+            <div class="container">
+                <div class="row row-cols-2 row-cols-md-3 gap-4 justify-content-center">
+                    <!-- Début card  -->
+                    <div class="col w-25">
+                        <div class="card h-100 border-0 py-5">
+                          <div class="i_container rounded-1">
+                            <i class="fa-brands fa-dribbble text-primary"></i>
+                          </div>
+                          <!-- Contenu texte -->
+                          <div class="card-body text-center">
+                            <h6 class="card-title fw-bold">Lorem, ipsum.</h6>
+                            <p class="card-text text-muted">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur, magnam.
+                            </p>
+                          </div>
+                        </div>
+                    </div>
+                    <!-- Fin card  -->
+                    <!-- Début card  -->
+                    <div class="col w-25">
+                        <div class="card h-100 border-0 py-5">
+                          <div class="i_container rounded-1">
+                            <i class="fa-regular fa-file-lines text-primary"></i>
+                          </div>
+                          <!-- Contenu texte -->
+                          <div class="card-body text-center">
+                            <h6 class="card-title fw-bold">Lorem, ipsum.</h6>
+                            <p class="card-text text-muted">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur, magnam.
+                            </p>
+                          </div>
+                        </div>
+                    </div>
+                    <!-- Fin card  -->
+                    <!-- Début card  -->
+                    <div class="col w-25">
+                        <div class="card h-100 border-0 py-5">
+                          <div class="i_container rounded-1">
+                            <i class="fa-solid fa-gauge-simple-high text-primary"></i>
+                          </div>
+                          <!-- Contenu texte -->
+                          <div class="card-body text-center">
+                            <h6 class="card-title fw-bold">Lorem, ipsum.</h6>
+                            <p class="card-text text-muted">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur, magnam.
+                            </p>
+                          </div>
+                        </div>
+                    </div>
+                    <!-- Fin card  -->
+                    <!-- Début card  -->
+                    <div class="col w-25">
+                        <div class="card h-100 border-0 py-5">
+                          <div class="i_container rounded-1">
+                            <i class="fa-solid fa-earth-americas text-primary"></i>
+                          </div>
+                          <!-- Contenu texte -->
+                          <div class="card-body text-center">
+                            <h6 class="card-title fw-bold">Lorem, ipsum.</h6>
+                            <p class="card-text text-muted">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur, magnam.
+                            </p>
+                          </div>
+                        </div>
+                    </div>
+                    <!-- Fin card  -->
+                    <!-- Début card  -->
+                    <div class="col w-25">
+                        <div class="card h-100 border-0 py-5">
+                          <div class="i_container rounded-1">
+                            <i class="fa-solid fa-display text-primary"></i>
+                          </div>
+                          <!-- Contenu texte -->
+                          <div class="card-body text-center">
+                            <h6 class="card-title fw-bold">Lorem, ipsum.</h6>
+                            <p class="card-text text-muted">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur, magnam.
+                            </p>
+                          </div>
+                        </div>
+                    </div>
+                    <!-- Fin card  -->
+                    <!-- Début card  -->
+                    <div class="col w-25 p-0">
+                        <div class="card h-100 border-0 py-5 py-5">
+                          <div class="i_container rounded-1">
+                            <i class="fa-solid fa-archway text-primary"></i>
+                          </div>
+                          <!-- Contenu texte -->
+                          <div class="card-body text-center">
+                            <h6 class="card-title fw-bold">Lorem, ipsum.</h6>
+                            <p class="card-text text-muted">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur, magnam.
+                            </p>
+                          </div>
+                        </div>
+                    </div>
+                    <!-- Fin card  -->
+                </div>
+            </div>
+        </section>
+        <!-- Fin section services  -->
+        <!-- Début section team -->
+        <section class="container-fluid mt-5 py-5" id="team">
+            <div class="badge rounded-pill text-primary text-uppercase p-2 px-3">team</div>
+            <p class="fw-bold fs-4 text-capitalize">
+                Our hardworking <span class="text-primary text-capitalize">team</span>
+            </p>
+            <p class="description text-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique inventore optio quas? <br>Beatae sapiente incidunt dolorem repellendus magni.
+            </p>
+            <div class="container row">
+                <!-- Début Card  -->
+                <div class="col">
+                  <div class="card border-0 rounded-1 shadow-sm">
+                    <img src="./public/img/Image_Sass_P1/team/team-1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body h-auto">
+                      <h6 class="card-title text-capitalize">Walter white</h6>
+                      <p class="card-text text-capitalize text-secondary">Chief executice officer</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Fin Card  -->
+                <!-- Début Card  -->
+                <div class="col">
+                  <div class="card border-0 rounded-1 shadow-sm">
+                    <img src="./public/img/Image_Sass_P1/team/team-2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h6 class="card-title text-capitalize">Sarah jhonson</h6>
+                      <p class="card-text text-capitalize text-secondary">product manager
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Fin Card  -->
+                <!-- Début Card  -->
+                <div class="col">
+                  <div class="card border-0 rounded-1 shadow-sm">
+                    <img src="./public/img/Image_Sass_P1/team/team-3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h6 class="card-title text-capitalize">William anderson</h6>
+                      <p class="card-text text-uppercase text-secondary">cto</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Fin Card  -->
+                <!-- Début Card  -->
+                <div class="col">
+                  <div class="card border-0 rounded-1 shadow-sm">
+                    <img src="./public/img/Image_Sass_P1/team/team-4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h6 class="card-title text-capitalize">Amanda jepson</h6>
+                      <p class="card-text text-capitalize text-secondary">accountant</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Fin Card  -->
+        </section>
+        <!-- Fin section team  -->
+        <!-- Début section contact -->
+        <section class="container-fluid mt-5" id="contact">
+            <div class="badge rounded-pill text-primary text-uppercase p-2 px-3">contact</div>
+            <p class="fw-bold fs-4 text-capitalize">
+                <span class="text-primary text-capitalize">contact us</span>
+            </p>
+            <p class="description text-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique inventore optio quas? <br>Beatae sapiente incidunt dolorem repellendus magni.
+            </p>
+            <!-- Address card -->
+            <div class="container row gap-1">
+                <div class="container col">
+                    <div class="card text-center border-0 shadow-sm pt-2">
+                        <div class="border_icons align-self-center">
+                            <i class="fa-solid fa-location-dot text-primary"></i>
+                        </div>
+                        <div class="card-body pt-2">
+                          <h6 class="card-title text-capitalize text-muted fw-bold">our address</h6>
+                          <p class="card-text text-secondary">Place de la minoterie 10, 1080 <span class="text-capitalize">molenbeek-saint-jean</span></p>
+                        </div>
+                      </div>
+                      <!-- Map card -->
+                    <div class="card border-0 shadow-sm mt-4"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5437.479084679682!2d4.336496655284512!3d50.85547018531026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c38e84af80dd%3A0xe85cd9cd0218a4aa!2sPl.%20de%20la%20Minoterie%2010%2C%201080%20Molenbeek-Saint-Jean!5e1!3m2!1sfr!2sbe!4v1732268407461!5m2!1sfr!2sbe" width="auto" height="300px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+                </div>
+                <div class="container col">
+                    <div class="container row w-auto gap-3" id="contact_us">
+                        <div class="card col w-auto text-center border-0 shadow-sm pt-2">
+                            <div class="border_icons align-self-center">
+                                <i class="fa-regular fa-envelope text-primary"></i>
+                            </div>
+                            <div class="card-body pt-2">
+                              <h6 class="card-title text-capitalize text-muted fw-bold">email us</h6>
+                              <p class="card-text text-secondary">info@molengeek.com</p>
+                            </div>
+                        </div>
+                        <div class="card col w-auto text-center border-0 shadow-sm pt-2">
+                            <div class="border_icons align-self-center">
+                                <i class="fa-solid fa-phone-volume text-primary"></i>
+                            </div>
+                            <div class="card-body pt-2">
+                              <h6 class="card-title text-capitalize text-muted fw-bold">call us</h6>
+                              <p class="card-text text-secondary">+1 5589 55488 55</p>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="container w-auto mt-4 shadow-sm p-3">
+                        <div class="container row gap-1 w-100">
+                            <input type="text" class="form-control col" placeholder="Your Name">
+                            <input type="email" class="form-control col" placeholder="Your Email">
+                        </div>
+                        <div class="container row w-100 mt-2">
+                            <input type="text" class="form-control col" placeholder="Subject">
+                        </div>
+                        <div class="container row w-100 mt-2">
+                            <textarea class="form-control" rows="3" placeholder="Message"></textarea>
+                        </div>
+                        <div class="mt-2">
+                            <button type="submit" class="btn btn-primary text-capitalize px-3 rounded-1">Send message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-- Fin section contact  -->
+    </main>
+    <!-- Fin contenu main -->
+    <!-- Début footer-->
+    <footer class="container-fluid py-3 mt-5">
+       <p class="text-muted text-capitalize mb-1">© Copyright <span class="fw-bold">MolenGeek</span>, all rights reserved</p>
+       <p class="text-muted mb-1">Designed by <span class="text-primary">MolenGeek</span></p>
+    </footer>
+    <!-- Fin footer -->
 <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 </body>
 </html>

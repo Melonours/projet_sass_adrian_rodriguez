@@ -1,1 +1,39 @@
 @use "../mixins";
+@use "../variables" as *;
+
+
+#team{
+    @include mixins.column-center;
+    background-color: $sectionbg;
+
+    .badge{
+        background-color: $badgebg;
+        font-size: $fsbadge;
+    }
+
+    .description{
+        font-size: $fssmall;
+    }
+
+    .container{
+        @media (max-width:526px) {
+            width: 100%;
+            @include mixins.column-center;
+        }
+        width: 60%;
+        .col{
+
+            .card{
+                @media (max-width:526px) {
+                    margin-top: 10px;
+                }
+                h6{
+                    font-size: $fssmall;
+                }
+                .card-text{
+                    font-size: $fsbadge;
+                }
+            }
+        }
+    }
+}
