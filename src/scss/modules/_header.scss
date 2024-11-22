@@ -3,11 +3,16 @@
 
 header{
     .navbar{
+        @media (min-width:526px) and (max-width:768px) {
+            padding: 2%;
+            margin: 0;
+        }
+
         @include mixins.row-evenly;
         
         ul{
             @include mixins.row-around;
-            width: 25%;
+
             li{
                 list-style: none;
     

@@ -2,12 +2,19 @@ $fssmall: 12px;
 $fsbtn: 10px;
 $fsbadge: 9px;
 $badgebg: #E7F1FD;
+$sectionbg: #F5F9FD;
+$footerbg: #F1F6FE;
 $border: 0.5px solid #E2EEFD;
+$borderdotted: 1.5px dotted #B0D0FA;
+
 
 :export{
     fssmall: $fssmall;
     fsbtn: $fsbtn;
     fsbadge:$fsbadge;
     badgebg: $badgebg;
-    border: $border
+    sectionbg: $sectionbg;
+    footerbg: $footerbg;
+    border: $border;
+    borderdotted: $borderdotted;
 }

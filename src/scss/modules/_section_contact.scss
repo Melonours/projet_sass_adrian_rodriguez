@@ -1,0 +1,72 @@
+@use "../mixins";
+@use "../variables" as *;
+
+
+#contact{
+    @include mixins.column-center;
+    .badge{
+        background-color: $badgebg;
+        font-size: $fsbadge;
+    }
+
+    .description{
+        font-size: $fssmall;
+    }
+
+    .container{
+        width: 60%;
+        @media (max-width:526px) {
+            width: 100%;
+            @include mixins.column-center;
+        }
+
+        #contact_us{
+            @media (max-width:526px) {
+                margin-top: 20px;
+                width: 100%;
+                @include mixins.row-center;
+            }
+
+            @media (min-width:526px) and (max-width:768px) {
+                margin-top: 20px;
+                width: 100%;
+                @include mixins.row-center;
+            }
+        }
+        .border_icons{
+            @include mixins.column-center;
+            width: 30px;
+            height: 30px;
+            border: $borderdotted;
+            border-radius: 50%;
+        }
+
+        .card-title{
+            font-size: $fssmall;
+        }
+
+        .card-text{
+            font-size: $fsbadge;
+        }
+    }
+
+    form{
+        @include mixins.column-center;
+
+        .form-control{
+            border-radius: 0%;
+        }
+
+        input::placeholder{
+            font-size: $fsbadge;
+        }
+
+        textarea::placeholder{
+            font-size: $fsbadge;
+        }
+
+        button{
+            font-size: $fsbtn;
+        }
+    }
+}
